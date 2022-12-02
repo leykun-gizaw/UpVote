@@ -9,7 +9,7 @@ const upvoteApp = {
     <div class="section">
       <article class="media">
         <figure class="media-left">
-          <img src="upvote/images/submissions/image-yellow.png" alt="yellow image" class="image is-64x64" />
+          <img src="/images/submissions/image-yellow.png" alt="yellow image" class="image is-64x64" />
         </figure>
         <div class="media-content">
           <div class="content">
@@ -20,7 +20,7 @@ const upvoteApp = {
               <br />
               <small class="is-size-7">
                 Submitted by:
-                <img src="upvote/images/avatars/daniel.jpg" alt="daniel" class="image is-24x24" />
+                <img src="/images/avatars/daniel.jpg" alt="daniel" class="image is-24x24" />
               </small>
             </p>
           </div>
