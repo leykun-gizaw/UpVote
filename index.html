@@ -13,22 +13,22 @@
 <body>
   <div id="app">
     <h2 class="title has-text-centered dividing-header">UpVote!</h2>
-    <div class="section">
+    <div class="section" v-for="submission in submissions" :key="submission.id">
       <article class="media">
         <figure class="media-left">
-          <img :src="submissions[0].submissionImage" alt="yellow image" class="image is-64x64" />
+          <img :src="submission.submissionImage" alt="yellow image" class="image is-64x64" />
         </figure>
         <div class="media-content">
           <div class="content">
             <p>
-              <strong><a href="#" class="has-text-info">{{ submissions[0].title }}</a><span
+              <strong><a href="#" class="has-text-info">{{ submission.title }}</a><span
                   class="tag is-small">#4</span></strong>
               <br />
-              {{ submissions[0].description }}
+              {{ submission.description }}
               <br />
               <small class="is-size-7">
                 Submitted by:
-                <img :src="submissions[0].avatar" alt="daniel" class="image is-24x24" />
+                <img :src="submission.avatar" alt="daniel" class="image is-24x24" />
               </small>
             </p>
           </div>
@@ -36,7 +36,7 @@
         <div class="media-right">
           <span class="icon is-small">
             <i class="fa fa-chevron-up"></i>
-            <strong class="has-text-info">{{ submissions[0].votes }}</strong>
+            <strong class="has-text-info">{{ submission.votes }}</strong>
           </span>
         </div>
       </article>
