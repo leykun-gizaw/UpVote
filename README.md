@@ -1,4 +1,4 @@
-# <p style="text-align: center">:arrow_up: UpVote :arrow_up:</p>
+# <p align="center">:arrow_up: UpVote :arrow_up:</p>
 
 <p style="text-align: center"><strong><em>From ...</strong></em></p>
 
@@ -10,3 +10,4 @@
 - It finishes everything on a single Javascript file [main.js](/public/main.js).
 - It is also live [here](https://leykun-gizaw.github.io/UpVote) which I setup with the help of [GitHub Actions](https://github.com/features/actions) (work in progress).
 - Project scaffold was constructed using [Vite](vitjs.dev).
+- Used the [options API](https://vuejs.org/guide/introduction.html#api-styles).
