@@ -14,7 +14,8 @@
   <div id="app">
     <h2 class="title has-text-centered dividing-header">UpVote!</h2>
     <div class="section">
-      <article class="media" v-for="submission in sortedSubmissions" :key="submission.id">
+      <article class="media" v-for="submission in sortedSubmissions" :key="submission.id"
+        :class="{'blue-border': submission.votes >= 20}">
         <figure class="media-left">
           <img :src="submission.submissionImage" alt="yellow image" class="image is-64x64" />
         </figure>
